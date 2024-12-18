@@ -1,0 +1,14 @@
+Task 1: Create a sequential memory access trace.
+The python script is designed to generate memory traces that simulate memory access patterns. These traces can be used to test cache simulators or study memory system behavior.
+To run the program:
+1.	Select the type of memory trace to be generated sequential or mixed
+2.	Enter the number of memory traces or access to be generated
+3.	Enter the file name (this is to specify the simulator which is being simulated rather than giving a fixed name)
+4.	Enter the block size (default size: 4)
+5.	With this data the required random memory trace will be generated
+Task 2: Cache Simulator
+The cache simulator is a Python-based program designed to emulate the behavior of a CPU cache memory system. It allows users to study the effects of various cache parameters, such as cache size, block size, associativity, and prefetching, on cache performance. The simulator processes memory trace files and calculates metrics like cache hits and misses, enabling detailed analysis of caching strategies.
+To run the program:
+1.	First generate the random memory traces ( either sequential or mixed)
+2.	Now with the terminal access the python script: 
+task_2.py/<cache size> <block size> <associativity> <prefetch size> <trace file>
